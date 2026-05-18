@@ -6,13 +6,18 @@
     <title>+NV - Official Band Website</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="https://69fc12b0388c948cecb8f7e4.imgix.net/nv.png?w=2500&h=1530" class="w-full grayscale invert">
+    <link id="logo-tab" class="warna-logo" rel="icon" href="https://69fc12b0388c948cecb8f7e4.imgix.net/nv.png?w=2500&h=1530" type="image/png">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Nova+Round&family=Oswald:wght@700&family=Pirata+One&family=Germania+One&display=swap');
 
         :root {
             --accent: #ff0000;
             --bg-dark: #050505;
+        }
+        
+        /* Warna PNG favicon merah pekat */
+        .warna-logo {
+        filter: brightness(0) saturate(100%) invert(24%) sepia(98%) saturate(7450%) hue-rotate(358deg) brightness(97%) contrast(115%);
         }
 
         body {
